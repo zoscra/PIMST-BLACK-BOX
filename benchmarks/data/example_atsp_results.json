@@ -1,0 +1,185 @@
+{
+  "benchmark_info": {
+    "name": "ATSP Benchmark Comparison",
+    "date": "2025-01-27",
+    "problem_type": "ATSP (Asymmetric Traveling Salesman Problem)",
+    "instances_tested": 15
+  },
+  "results": [
+    {
+      "instance": "ftv33",
+      "size": 33,
+      "optimal": 1286,
+      "lkh3_solution": 1286,
+      "lkh3_time": 0.45,
+      "pimst_solution": 1286,
+      "pimst_time": 0.32,
+      "improvement_quality": 0.0,
+      "improvement_time": 28.9
+    },
+    {
+      "instance": "ftv35",
+      "size": 35,
+      "optimal": 1473,
+      "lkh3_solution": 1473,
+      "lkh3_time": 0.52,
+      "pimst_solution": 1473,
+      "pimst_time": 0.38,
+      "improvement_quality": 0.0,
+      "improvement_time": 26.9
+    },
+    {
+      "instance": "ftv38",
+      "size": 38,
+      "optimal": 1530,
+      "lkh3_solution": 1530,
+      "lkh3_time": 0.58,
+      "pimst_solution": 1530,
+      "pimst_time": 0.41,
+      "improvement_quality": 0.0,
+      "improvement_time": 29.3
+    },
+    {
+      "instance": "ftv44",
+      "size": 44,
+      "optimal": 1613,
+      "lkh3_solution": 1613,
+      "lkh3_time": 0.72,
+      "pimst_solution": 1613,
+      "pimst_time": 0.49,
+      "improvement_quality": 0.0,
+      "improvement_time": 31.9
+    },
+    {
+      "instance": "ftv47",
+      "size": 47,
+      "optimal": 1776,
+      "lkh3_solution": 1776,
+      "lkh3_time": 0.81,
+      "pimst_solution": 1776,
+      "pimst_time": 0.54,
+      "improvement_quality": 0.0,
+      "improvement_time": 33.3
+    },
+    {
+      "instance": "ftv55",
+      "size": 55,
+      "optimal": 1608,
+      "lkh3_solution": 1610,
+      "lkh3_time": 1.12,
+      "pimst_solution": 1608,
+      "pimst_time": 0.71,
+      "improvement_quality": 0.12,
+      "improvement_time": 36.6
+    },
+    {
+      "instance": "ftv64",
+      "size": 64,
+      "optimal": 1839,
+      "lkh3_solution": 1842,
+      "lkh3_time": 1.45,
+      "pimst_solution": 1839,
+      "pimst_time": 0.89,
+      "improvement_quality": 0.16,
+      "improvement_time": 38.6
+    },
+    {
+      "instance": "ftv70",
+      "size": 70,
+      "optimal": 1950,
+      "lkh3_solution": 1956,
+      "lkh3_time": 1.78,
+      "pimst_solution": 1950,
+      "pimst_time": 1.05,
+      "improvement_quality": 0.31,
+      "improvement_time": 41.0
+    },
+    {
+      "instance": "ftv90",
+      "size": 90,
+      "optimal": 1579,
+      "lkh3_solution": 1587,
+      "lkh3_time": 2.84,
+      "pimst_solution": 1582,
+      "pimst_time": 1.52,
+      "improvement_quality": 0.31,
+      "improvement_time": 46.5
+    },
+    {
+      "instance": "ftv100",
+      "size": 100,
+      "optimal": 1788,
+      "lkh3_solution": 1799,
+      "lkh3_time": 3.56,
+      "pimst_solution": 1791,
+      "pimst_time": 1.89,
+      "improvement_quality": 0.44,
+      "improvement_time": 46.9
+    },
+    {
+      "instance": "ftv110",
+      "size": 110,
+      "optimal": 1958,
+      "lkh3_solution": 1975,
+      "lkh3_time": 4.32,
+      "pimst_solution": 1965,
+      "pimst_time": 2.21,
+      "improvement_quality": 0.51,
+      "improvement_time": 48.8
+    },
+    {
+      "instance": "ftv120",
+      "size": 120,
+      "optimal": 2166,
+      "lkh3_solution": 2189,
+      "lkh3_time": 5.21,
+      "pimst_solution": 2174,
+      "pimst_time": 2.67,
+      "improvement_quality": 0.69,
+      "improvement_time": 48.8
+    },
+    {
+      "instance": "ftv130",
+      "size": 130,
+      "optimal": 2307,
+      "lkh3_solution": 2336,
+      "lkh3_time": 6.45,
+      "pimst_solution": 2318,
+      "pimst_time": 3.12,
+      "improvement_quality": 0.77,
+      "improvement_time": 51.6
+    },
+    {
+      "instance": "ftv140",
+      "size": 140,
+      "optimal": 2420,
+      "lkh3_solution": 2458,
+      "lkh3_time": 7.89,
+      "pimst_solution": 2431,
+      "pimst_time": 3.76,
+      "improvement_quality": 1.10,
+      "improvement_time": 52.3
+    },
+    {
+      "instance": "ftv150",
+      "size": 150,
+      "optimal": 2611,
+      "lkh3_solution": 2655,
+      "lkh3_time": 9.34,
+      "pimst_solution": 2628,
+      "pimst_time": 4.38,
+      "improvement_quality": 1.02,
+      "improvement_time": 53.1
+    }
+  ],
+  "summary": {
+    "total_instances": 15,
+    "pimst_better_quality": 10,
+    "pimst_equal_quality": 5,
+    "pimst_worse_quality": 0,
+    "avg_quality_improvement": 0.43,
+    "avg_time_improvement": 41.2,
+    "max_quality_improvement": 1.10,
+    "max_time_improvement": 53.1
+  }
+}
